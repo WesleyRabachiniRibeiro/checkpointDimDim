@@ -1,0 +1,23 @@
+# Listar
+GET http://localhost:8080/api/task
+Authorization: Basic user f4b62061-9d26-4672-85f4-4989a84c3cc9
+
+###
+
+# Apagar
+DELETE http://localhost:8080/api/task/1
+
+###
+
+# Cadastrar
+POST http://localhost:8080/api/task
+Content-Type: application/json
+Authorization: Basic joao@fiap.com.br 123
+
+{
+      "title": "Modelar o Banco",
+      "description": "Modelagem das tabelas",
+      "score": 20
+}
+
+###
